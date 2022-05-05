@@ -1,0 +1,24 @@
+//Q1: Sorting
+
+class Sorting
+{
+ static void sort(int arr[])
+ {
+  int low = 0;
+  int high = arr.length-1;
+  int temp = arr[high];
+for(int i =arr.length-2; i>=low; i++)
+{
+  if (temp<arr[i])
+  {
+   int j=i;
+   j++;
+   arr[j] = arr[i];
+   display(arr);
+  }
+  else()
+  
+}
+  
+ }
+}
